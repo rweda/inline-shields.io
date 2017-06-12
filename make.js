@@ -1,7 +1,7 @@
 const fs = require("fs-extra");
 
 const [ a, b, c ] = require("./package.json").version.split(".");
-const version = `${a}.${("00"+b).slice -3}${("00"+c).slice -3}`;
+const version = `${a}.${("00"+b).slice(-3)}${("00"+c).slice(-3)}`;
 
 const out = "public";
 
