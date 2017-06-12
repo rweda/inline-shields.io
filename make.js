@@ -18,7 +18,7 @@ const grant = [
 ];
 
 const { repo } = require("./package.json").repository.url.match(/github.com\/([^\/]+\/[^\/]+)/).slice(1);
-const ghPages = `https://raw.githubusercontent.com/${repo}/gh-pages/`;
+const ghPages = `https://raw.githubusercontent.com/${repo}/gh-pages`;
 
 const header = `\
 // ==UserScript==
