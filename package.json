@@ -1,0 +1,25 @@
+{
+  "name": "inline-shields.io",
+  "version": "0.0.0",
+  "shortName": "Inline Shields.io",
+  "description": "Replaces text links to Shields.io with badge images",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rweda/inline-shields.io.git"
+  },
+  "author": "Redwood EDA (http://redwoodeda.com/)",
+  "namespace": "http://redwoodeda.com/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rweda/inline-shields.io/issues"
+  },
+  "homepage": "https://github.com/rweda/inline-shields.io#readme",
+  "devDependencies": {
+    "fs-extra": "^3.0.1",
+    "gh-pages-travis": "^1.0.4"
+  }
+}
