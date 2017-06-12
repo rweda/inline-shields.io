@@ -11,6 +11,7 @@ const user = script.replace(".js", ".user.js");
 
 // @match entries
 const match = [
+  "*",
 ];
 
 // @grant entries
